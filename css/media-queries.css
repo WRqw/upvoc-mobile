@@ -33,5 +33,49 @@
    .bottom-section ul {
     padding-left: 0;
    }
+   .name-news {
+    width: 250px;
+   }
 
+  .name-news a {
+    font: 18px 'Condensed-Bold', sans-serif;
+  }
+  .news{
+  font: 14px 'Helvetica', sans-serif;
+}
+.advice {
+font: 11px 'Helvetica', sans-serif;
+padding-top: 7px;
+padding-bottom: 0;
+margin-bottom: 5px;
+}
+.word {
+ padding: 0;
+ margin-top: 7px;
+ margin-left: 30px;
+  font: 9px 'Myriad', sans-serif;
+ 
+ 
+}
+.allocation {
+  margin-left: 20px;
+}
+.translate-line {
   
+  background: #fffb80 url("../img/top-line-bg.png") no-repeat;
+  background-size: 50%;
+  
+}
+.close{
+  position: absolute;
+  top: 1px;
+  right: -3px;
+  width: 10px;
+  height: 10px;
+  float: right;
+  font-size: 0;
+  cursor: pointer;
+  background: url("../img/show-cross.png") no-repeat;
+  background-size: 60%;
+}
+}
