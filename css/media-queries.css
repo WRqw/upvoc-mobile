@@ -1,27 +1,37 @@
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 980px) {
     #wrapper {
-      width: 90%;
+      width: 95%;
    }
-   #header {
-      height: auto;
+   .content {
+    width: 90%;
    }
-
    
 }
+@media screen and (max-width: 650px) {
+  
+
+ 
+}
+
 @media screen and (max-width: 480px) {
-   #header {
-      height: auto;
-        position: static;
-   }
+
    html {
       -webkit-text-size-adjust: none;
    }
-    #wrapper {
-      font-size: 90%;
-      padding: 10px 8px;
-      width: 80%;
-      float: none;
-      margin: 20px 0;
+   .bottom-section a li {
+      font-size: 80%;
+      
    }
- 
-}
+   .bottom-section a {
+    
+
+   }
+   .bottom-section li {
+      text-align: center;
+
+   }
+   .bottom-section ul {
+    padding-left: 0;
+   }
+
+  
