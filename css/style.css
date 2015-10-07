@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'Intro-Inline'; 
+    src: url(../fonts/Intro-Inline.otf); 
+   }
+@font-face {
+    font-family: 'Phosphate'; 
+    src: url(../fonts/Phosphate.ttf); 
+   }
+@font-face {
+    font-family: 'Helvetica'; 
+    src: url(../fonts/HelveticaLight.eot); 
+}
+@font-face {
+    font-family: 'Condensed-Bold'; 
+    src: url(../fonts/DINCondensedBold.ttf); 
+   }
+@font-face {
+    font-family: 'Myriad'; 
+    src: url(../fonts/MyriadPro-It.otf); 
+   }
+@font-face {
+    src: url(../fonts/RobotoRegular.ttf); 
+   }
+body{
+	margin: 0;
+	padding: 0;
+}
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+	
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+    display: block;
+}
+header {
+	margin: 0;
+	padding: 0;
+}
+#wrapper {
+	width: 740px;
+	margin: 0 auto;
+}
+.main-head {
+	height: 70px;
+	
+}
+.menu {
+	float: left;
+}
+.login,
+.my-lang{
+	float: right;
+}
+.top-section {
+	background: #b92b27;
+	font:  18px 'Condensed-Bold', sans-serif;
+
+}
+.bottom-section {
+	background: #efefef;
+}
+ul {
+	list-style: none;
+	margin: 0;
+	text-align: center;
+}
+.main-head a {
+	color: white;
+	text-decoration: none;
+}
+.bottom-section a {
+	color: black;
+	display: inline-block;
+	padding: 10px;
+	margin: 6px;
+	border-right: 2px solid #dddddd;
+}
+.bottom-section a:last-child {
+	border-right: none;
+}
+
+
+

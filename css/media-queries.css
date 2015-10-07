@@ -1,0 +1,27 @@
+@media screen and (max-width: 650px) {
+    #wrapper {
+      width: 90%;
+   }
+   #header {
+      height: auto;
+   }
+
+   
+}
+@media screen and (max-width: 480px) {
+   #header {
+      height: auto;
+        position: static;
+   }
+   html {
+      -webkit-text-size-adjust: none;
+   }
+    #wrapper {
+      font-size: 90%;
+      padding: 10px 8px;
+      width: 80%;
+      float: none;
+      margin: 20px 0;
+   }
+ 
+}
